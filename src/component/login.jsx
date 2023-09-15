@@ -44,7 +44,7 @@ function Login() {
     return (
         <div>
             <div class="container">
-                <div class="row">
+                <div class="login">
                     <h2>Login</h2>
                     <hr />
                 </div>
@@ -54,7 +54,10 @@ function Login() {
 
                         <form>
                             <div class="form-group">
+                                <div>
                                 <label>Email</label>
+                               </div>
+                               <div>
                                 <input type="email" class="form-control" id="email" placeholder="Enter Name"
 
                                     value={email}
@@ -65,23 +68,29 @@ function Login() {
                                 />
 
                             </div>
-
+                            </div>
                             <div class="form-group">
+                                <div>
                                 <label>password</label>
+                                </div>
+                                <div>
+                                    
                                 <input type="password" class="form-control" id="password" placeholder="Enter password"
 
                                     value={password}
                                     onChange={(event) => {
                                         setPassword(event.target.value);
                                     }}
-
+                    
                                 />
+                                </div>
                             </div>
-                            <button type="submit" class="btn btn-primary" onClick={login} >Login</button>
+                           
                         </form>
-
+                        
                     </div>
                 </div>
+                <button type="submit" class="btn btn-primary" onClick={login} >Login</button>
             </div>
 
         </div>

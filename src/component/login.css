@@ -1,0 +1,37 @@
+.container{
+    background-color: rgb(202, 212, 212);
+    opacity: 85%;
+    justify-content: center;
+    width: 600px;
+    margin: 100px auto;
+}
+.row{
+    /* justify-content: center; */
+    
+}
+.row h2{
+    justify-items: center;
+}
+.form-group{
+    color: blueviolet;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+
+    
+    
+}
+.login{
+ color: rgb(78, 51, 212);
+}
+button{
+   margin-bottom: 15px;
+   justify-content: center;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-photo/nature-green-leaf-garden-summer-natural-green-leaves-plants-using-as-spring-background-cover-page-greenery-environment-ecology-wallpaper_103077-222.jpg?w=2000);
+}
+input{
+    outline-color: black;
+    width: 200px;
+}
